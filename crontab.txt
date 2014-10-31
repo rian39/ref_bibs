@@ -1,0 +1,6 @@
+*/5 * * * * wget http://localhost:23119/better-bibtex/collection?/0/5BFPRVNK.biblatex -O ~/Documents/ref_bibs/data_forms_thought.bib
+*/5 * * * * wget http://localhost:23119/better-bibtex/collection?/0/UPCNSJVH.biblatex -O ~/Documents/ref_bibs/machine_learning.bib
+*/5 * * * * wget http://localhost:23119/better-bibtex/collection?/0/G8S9G9TG.biblatex -O ~/Documents/ref_bibs/R.bib
+*/5 * * * * wget http://localhost:23119/better-bibtex/collection?/0/63WRVW6I.biblatex -O ~/Documents/ref_bibs/google_analytics.bib
+http://localhost:23119/better-bibtex/collection?/0/H4X4NHKQ.biblatex
+*/5 * * * * wget http://localhost:23119/better-bibtex/collection?/0/H4X4NHKQ.biblatex  -O ~/Documents/ref_bibs/ngs.bib
