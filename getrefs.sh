@@ -6,4 +6,5 @@ wget http://localhost:23119/better-bibtex/collection?/0/H4X4NHKQ.biblatex -O ~/D
 wget http://localhost:23119/better-bibtex/collection?/0/TUQPFESX.biblatex -O ~/Documents/ref_bibs/at_this_moment.bib
 wget http://localhost:23119/better-bibtex/collection?/0/A6NDHZ4R.biblatex -O ~/Documents/ref_bibs/metacommunities.bib
 wget http://localhost:23119/better-bibtex/collection?/0/R.biblatex -O ~/Documents/ref_bibs/R.bib
+wget http://localhost:23119/better-bibtex/collection?/0/ensembles.biblatex -O ~/Documents/ref_bibs/ensembles.bib
 
