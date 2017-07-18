@@ -10529,14 +10529,6 @@ In this article, I begin from the idea of research as a praxis, and from the fig
   origdate = {2016-06-22}
 }
 
-@inproceedings{DeepMask,
-  title = {Learning to {{Segment Object Candidates}}},
-  timestamp = {2017-06-06T10:37:36Z},
-  booktitle = {{{NIPS}}},
-  author = {Pinheiro, Pedro O. and Collobert, Ronan and Dollár, Piotr},
-  date = {2015}
-}
-
 @book{Srnicek_2016,
   location = {{Cambridge, UK ; Malden, MA}},
   title = {Platform {{Capitalism}}},
@@ -11538,6 +11530,38 @@ In this article, I begin from the idea of research as a praxis, and from the fig
   urldate = {2017-07-17},
   date = {2015},
   file = {[HTML] from firstmonday.org:/home/mackenza/.mozilla/firefox/jcui03tt.default/zotero/storage/95HIQQZH/4466.html:text/html;Snapshot:/home/mackenza/.mozilla/firefox/jcui03tt.default/zotero/storage/C7J5WEHA/5423.html:text/html}
+}
+
+@article{Pinheiro_2015,
+  title = {Learning to {{Segment Object Candidates}}},
+  url = {http://arxiv.org/abs/1506.06204},
+  abstract = {Recent object detection systems rely on two critical steps: (1) a set of object proposals is predicted as efficiently as possible, and (2) this set of candidate proposals is then passed to an object classifier. Such approaches have been shown they can be fast, while achieving the state of the art in detection performance. In this paper, we propose a new way to generate object proposals, introducing an approach based on a discriminative convolutional network. Our model is trained jointly with two objectives: given an image patch, the first part of the system outputs a class-agnostic segmentation mask, while the second part of the system outputs the likelihood of the patch being centered on a full object. At test time, the model is efficiently applied on the whole test image and generates a set of segmentation masks, each of them being assigned with a corresponding object likelihood score. We show that our model yields significant improvements over state-of-the-art object proposal algorithms. In particular, compared to previous approaches, our model obtains substantially higher object recall using fewer proposals. We also show that our model is able to generalize to unseen categories it has not seen during training. Unlike all previous approaches for generating object masks, we do not rely on edges, superpixels, or any other form of low-level segmentation.},
+  timestamp = {2017-07-18T05:16:47Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1506.06204},
+  primaryClass = {cs},
+  author = {Pinheiro, Pedro O. and Collobert, Ronan and Dollar, Piotr},
+  urldate = {2017-07-18},
+  date = {2015-06-20},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {arXiv\:1506.06204 PDF:/home/mackenza/.mozilla/firefox/jcui03tt.default/zotero/storage/VGZZD9CM/Pinheiro et al. - 2015 - Learning to Segment Object Candidates.pdf:application/pdf;arXiv.org Snapshot:/home/mackenza/.mozilla/firefox/jcui03tt.default/zotero/storage/I57D5UZB/1506.html:text/html}
+}
+
+@article{Pinheiro_2016,
+  title = {Learning to {{Refine Object Segments}}},
+  url = {http://arxiv.org/abs/1603.08695},
+  abstract = {Object segmentation requires both object-level information and low-level pixel data. This presents a challenge for feedforward networks: lower layers in convolutional nets capture rich spatial information, while upper layers encode object-level knowledge but are invariant to factors such as pose and appearance. In this work we propose to augment feedforward nets for object segmentation with a novel top-down refinement approach. The resulting bottom-up/top-down architecture is capable of efficiently generating high-fidelity object masks. Similarly to skip connections, our approach leverages features at all layers of the net. Unlike skip connections, our approach does not attempt to output independent predictions at each layer. Instead, we first output a coarse `mask encoding' in a feedforward pass, then refine this mask encoding in a top-down pass utilizing features at successively lower layers. The approach is simple, fast, and effective. Building on the recent DeepMask network for generating object proposals, we show accuracy improvements of 10-20\% in average recall for various setups. Additionally, by optimizing the overall network architecture, our approach, which we call SharpMask, is 50\% faster than the original DeepMask network (under .8s per image).},
+  timestamp = {2017-07-18T05:17:40Z},
+  archivePrefix = {arXiv},
+  eprinttype = {arxiv},
+  eprint = {1603.08695},
+  primaryClass = {cs},
+  author = {Pinheiro, Pedro O. and Lin, Tsung-Yi and Collobert, Ronan and Dollàr, Piotr},
+  urldate = {2017-07-18},
+  date = {2016-03-29},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {arXiv\:1603.08695 PDF:/home/mackenza/.mozilla/firefox/jcui03tt.default/zotero/storage/XQDUMCRU/Pinheiro et al. - 2016 - Learning to Refine Object Segments.pdf:application/pdf;arXiv.org Snapshot:/home/mackenza/.mozilla/firefox/jcui03tt.default/zotero/storage/5QCHUX8Q/1603.html:text/html}
 }
 
 @incollection{virilio_perspective_1997,
