@@ -6,4 +6,5 @@ wget http://localhost:23119/better-bibtex/collection?/0/metacommunities.biblatex
 wget http://localhost:23119/better-bibtex/collection?/0/R.biblatex -O ~/ref_bibs/R.bib
 wget http://localhost:23119/better-bibtex/collection?/0/ensembles.biblatex -O ~/ref_bibs/ensembles.bib
 wget http://localhost:23119/better-bibtex/collection?/0/teaching_director.biblatex -O ~/ref_bibs/teaching.bib
+wget http://localhost:23119/better-bibtex/collection?/0/biosensors.biblatex -O ~/ref_bibs/teaching.bib
 
