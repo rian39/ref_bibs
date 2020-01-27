@@ -8,4 +8,5 @@ wget http://localhost:23119/better-bibtex/collection?/0/ensembles.biblatex -O ~/
 wget http://localhost:23119/better-bibtex/collection?/0/teaching_director.biblatex -O ~/ref_bibs/teaching.bib
 wget http://localhost:23119/better-bibtex/collection?/0/biosensors.biblatex -O ~/ref_bibs/biosensors.bib
 wget http://localhost:23119/better-bibtex/collection?/0/socy1006.biblatex -O ~/ref_bibs/socy1006.bib
+wget http://localhost:23119/better-bibtex/collection?/0/mulligans.biblatex -O ~/ref_bibs/mulligans.bib
 
